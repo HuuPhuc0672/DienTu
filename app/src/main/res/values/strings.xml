@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">DienTu</string>
+
+    <string name="tra_dung">Câu trả lời đúng</string>
+    <string name="tra_sai">Câu trả lời của bạn sai.</string>
+
+
+    <string name="cau1">.... đen tha trứng lên cao,\nThế nào cũng có mưa rào rất to.</string>
+    <string name="cau2">Một con ... đau cả tàu bỏ cỏ.</string>
+    <string name="cau3">... ngồi đáy giếng, coi trời bằng vun</string>
+    <string name="cau5">             Con ... mà đi ăn đêm\n
+Đậu phải cành mềm lộn cổ xuống ao.\n
+            Ông ơi! ông vớt tôi nao,\n
+Tôi có lòng nào ông hãy xáo măng.\n</string>
+    <string name="cau6">... tha đi, ... tha lại</string>
 </resources>

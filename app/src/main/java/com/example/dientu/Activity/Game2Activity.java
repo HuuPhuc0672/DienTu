@@ -29,27 +29,26 @@ public class Game2Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(Game2Activity.this, Game3Activity.class);
-                Toast.makeText(Game2Activity.this, "Bạn đã chọn đúng", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Game2Activity.this, getString(R.string.tra_dung), Toast.LENGTH_SHORT).show();
                 startActivity(intent);
-
             }
         });
         btnSai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Game2Activity.this, "Bạn Chọn Sai. Mời Bạn Chọn Lại", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Game2Activity.this, getString(R.string.tra_sai), Toast.LENGTH_SHORT).show();
             }
         });
         btnSai2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Game2Activity.this, "Bạn Chọn Sai. Mời Bạn Chọn Lại", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Game2Activity.this, getString(R.string.tra_sai), Toast.LENGTH_SHORT).show();
             }
         });
         btnSai3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Game2Activity.this, "Bạn Chọn Sai. Mời Bạn Chọn Lại", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Game2Activity.this, getString(R.string.tra_sai), Toast.LENGTH_SHORT).show();
             }
         });
     }

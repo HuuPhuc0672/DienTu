@@ -30,11 +30,8 @@ public class WinActivity extends AppCompatActivity {
         btnKetThuc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Khoi tao lai Activity main
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
-
-                // Tao su kien ket thuc app
                 Intent startMain = new Intent(Intent.ACTION_MAIN);
                 startMain.addCategory(Intent.CATEGORY_HOME);
                 startActivity(startMain);
