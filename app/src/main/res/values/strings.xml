@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">DienTu</string>
 
-    <string name="tra_dung">Câu trả lời đúng</string>
+    <string name="tra_dung">Câu trả lời đúng.</string>
     <string name="tra_sai">Câu trả lời của bạn sai.</string>
 
 
